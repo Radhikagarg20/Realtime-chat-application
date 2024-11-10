@@ -36,7 +36,7 @@ This is a real-time chat web application built using **PHP**, **MySQL**, and **J
 
 ## Screenshots
 
-(Include screenshots of the app here)
+(checkout app)
 
 ## Contributing
 
@@ -45,3 +45,8 @@ Feel free to fork this project, make changes, and submit pull requests. For majo
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
+
+
+
+
+As soon as this app going live!!
