@@ -34,15 +34,6 @@ This is a real-time chat web application built using **PHP**, **MySQL**, and **J
 - Ensure your **Apache** and **MySQL** servers are running.
 - Open your browser and navigate to `http://localhost/chatapp` to start using the chat application.
 
-## Screenshots
-
-(checkout app)
-
-## Contributing
-
-Feel free to fork this project, make changes, and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
