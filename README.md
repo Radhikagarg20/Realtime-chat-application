@@ -27,73 +27,32 @@ _(Note: Hosted on a free server; please be patient as it may take a few seconds 
 
 /Realtime-chat-application
 │
-├── index.php            👉 Main entry file (homepage or redirect to login)
-├── login.php            👉 Login screen for users
-├── chat.php             👉 Main chat screen after user logs in
-├── users.php            👉 Displays list of users you can chat with
-├── header.php           👉 Common top section used on multiple pages
-├── style.css            👉 All styling for the pages (colors, layout, etc.)
-├── chatapp.sql          👉 The file to create database tables (upload in phpMyAdmin)
-├── README.md            👉 (Optional) Project documentation
+├── index.php             Main entry file (homepage or redirect to login)
+├── login.php             Login screen for users
+├── chat.php              Main chat screen after user logs in
+├── users.php             Displays list of users you can chat with
+├── header.php            Common top section used on multiple pages
+├── style.css             All styling for the pages (colors, layout, etc.)
+├── chatapp.sql           The file to create database tables (upload in phpMyAdmin)
+├── README.md             (Optional) Project documentation
 │
-├── /php                 📁 All backend logic (handles requests)
-│   ├── config.php       👉 DB connection file (edit with host/user/pass/dbname)
-│   ├── signup.php       👉 Handles sign-up form data and saves to DB
-│   ├── login.php        👉 Checks login info from the user(Login validation)
-│   ├── logout.php       👉 Logs user out (clears session)
-│   ├── users.php        👉 Sends list of users to frontend(Fetches all user list)
-│   ├── search.php       👉 Finds users by name/email
-│   ├── data.php         👉 Stores user session and helper functions
-│   ├── get-chat.php     👉 Loads messages between 2 users
-│   ├── insert-chat.php  👉 Saves new messages to the database
+├── /php                  All backend logic (handles requests)
+│   ├── config.php        DB connection file (edit with host/user/pass/dbname)
+│   ├── signup.php        Handles sign-up form data and saves to DB
+│   ├── login.php         Checks login info from the user(Login validation)
+│   ├── logout.php        Logs user out (clears session)
+│   ├── users.php         Sends list of users to frontend(Fetches all user list)
+│   ├── search.php        Finds users by name/email
+│   ├── data.php          Stores user session and helper functions
+│   ├── get-chat.php      Loads messages between 2 users
+│   ├── insert-chat.php   Saves new messages to the database
 │
-├── /javascript          📁 All frontend logic (JavaScript files)
-│   ├── chat.js          👉 Handles sending/receiving messages using AJAX
-│   ├── login.js         👉 Validates login form and sends to PHP
-│   ├── signup.js        👉 Validates signup form and sends to PHP
-│   ├── pass-show-hide.js👉 Show/hide password when clicked
-│   └── users.js         👉 Handles live user list and updates
-
-
-
-
-
-/Realtime-chat-application
-│
-├── index.php            👉 Main entry file (homepage or redirect to login)
-├── login.php            👉 Login screen for users
-├── chat.php             👉 Main chat screen after user logs in
-├── users.php            👉 Displays list of users you can chat with
-├── header.php           👉 Common top section used on multiple pages
-├── style.css            👉 All styling for the pages (colors, layout, etc.)
-├── chatapp.sql          👉 The file to create database tables (upload in phpMyAdmin)
-├── README.md            👉 (Optional) Project documentation
-│
-├── /php                 📁 All backend logic (handles requests)
-│   ├── config.php       👉 DB connection file (edit with host/user/pass/dbname)
-│   ├── signup.php       👉 Handles sign-up form data and saves to DB
-│   ├── login.php        👉 Checks login info from the user(Login validation)
-│   ├── logout.php       👉 Logs user out (clears session)
-│   ├── users.php        👉 Sends list of users to frontend(Fetches all user list)
-│   ├── search.php       👉 Finds users by name/email
-│   ├── data.php         👉 Stores user session and helper functions
-│   ├── get-chat.php     👉 Loads messages between 2 users
-│   └── insert-chat.php  👉 Saves new messages to the database
-│
-├── /javascript          📁 All frontend logic (JavaScript files)
-│   ├── chat.js          👉 Handles sending/receiving messages using AJAX
-│   ├── login.js         👉 Validates login form and sends to PHP
-│   ├── signup.js        👉 Validates signup form and sends to PHP
-│   ├── pass-show-hide.js👉 Show/hide password when clicked
-│   └── users.js         👉 Handles live user list and updates
-
-
-
-
-
-
-
-
+├── /javascript           All frontend logic (JavaScript files)
+│   ├── chat.js           Handles sending/receiving messages using AJAX
+│   ├── login.js          Validates login form and sends to PHP
+│   ├── signup.js         Validates signup form and sends to PHP
+│   ├── pass-show-hide.js Show/hide password when clicked
+│   └── users.js          Handles live user list and updates
 
 
 ## Setup Instructions
