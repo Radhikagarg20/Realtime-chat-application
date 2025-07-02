@@ -24,7 +24,7 @@ _(Note: Hosted on a free server; please be patient as it may take a few seconds 
 
   
 ## Project Structure
-
+'''
 /Realtime-chat-application
 │
 ├── index.php             Main entry file (homepage or redirect to login)
@@ -53,7 +53,7 @@ _(Note: Hosted on a free server; please be patient as it may take a few seconds 
 │   ├── signup.js         Validates signup form and sends to PHP
 │   ├── pass-show-hide.js Show/hide password when clicked
 │   └── users.js          Handles live user list and updates
-
+'''
 
 ## Setup Instructions
 
