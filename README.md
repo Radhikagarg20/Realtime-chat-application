@@ -24,7 +24,7 @@ _(Note: Hosted on a free server; please be patient as it may take a few seconds 
 
   
 ## Project Structure
-'''
+
 /Realtime-chat-application
 │
 ├── index.php             Main entry file (homepage or redirect to login)
